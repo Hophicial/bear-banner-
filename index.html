@@ -1,165 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bannerbear</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Online Certificate Generator - Bannerbear</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="asset/bannerbear_logo.svg" alt="Bannerbear Logo">
-        </div>
-<div>
-    <a href=""></a>
-</div>
 
-    </header>
-    <h2>Online Certificate Maker</h2>
-    <p>Generate beautiful certificates for your students or colleagues and download in PDF format</p>
+  <header class="section-1">
+    <a href="/">
+      <img src="asset/bannerbear_logo.svg" alt="Bannerbear Logo">
+    </a>
+    <nav>
+      <a href="#">Product</a>
+      <a href="#">Demos</a>
+      <a href="#">Resources</a>
+      <a href="#">Pricing</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+
+  <section class="section-2">
+    <h1>Online Certificate Maker</h1>
+    <p>Generate beautiful certificates for your students or colleagues and download in PDF format.</p>
     <button>Create a Certificate Now</button>
-    <p>✓ 100% Free — Download in PDF or JPG</p>
+    <p class="small-text">✓ 100% Free — Download in PDF or JPG</p>
+  </section>
 
-    <h3>Create Certificates Online or Auto Generate via API</h3>
-    <p>Easily create certificates and awards online to recognize the achievements of your employees, speakers, students etc.</p>
-    <p>Simply enter some details and generate your certificate PDF in one click. You can download up to 5 beautiful PDF certificates per day for free.</p>
-    <p>Creating a lot of certificates and need to automate the process? Look into our API or Nocode automations to generate PDF certificates in bulk.</p>
+  <section class="section-3">
+      <div class="text">
+        <h2>Create Certificates Online or Auto Generate via API</h2>
+        <p>
+          Easily create certificates and awards online to recognize the achievements of your employees, speakers, students etc.
+        </p>
+        <p>
+          Simply enter some details and generate your certificate PDF in one click. You can download up to 5 beautiful PDF certificates per day for free.
+        </p>
+        <p>
+          Creating a lot of certificates and need to automate the process? Look into our API or Nocode automations to generate PDF certificates in bulk.
+        </p>
+      </div>
 
-    <ul>
-        <li>
-            <h4>High Quality Templates</h4>
-            <p>We don't have as many templates as some other tools, but the ones we have look great and are in high quality vector format — download your certificates and print them at high resolutions.</p>
-        </li>
-        <li>
-            <h4>No Design Skills Needed</h4>
-            <p>If you're a professional in any field, this is the certificate tool for you. No design skills needed to create stunning certificates of achievement or other documents that represent your awards and achievements.</p>
-        </li>
-        <li>
-            <h4>Download for Free</h4>
-            <p>The certificate maker tool is designed as a free way to quickly create and download certificates for anything you want. Create PDFs on your computer, iPad or iPhone - wherever you are, and download them instantly.</p>
-        </li>
-        <li>
-            <h4>Instant Download</h4>
-            <p>Create certificates online and download instantly as a PDF — no signup or payment required</p>
-        </li>
-        <li>
-            <h4>Auto Resizing</h4>
-            <p>Bannerbear auto-resizes text so you don't have to worry about people with long names</p>
-        </li>
-        <li>
-            <h4>Customization</h4>
-            <p>Change certificate settings to your liking such as font colors, font styles and more</p>
-        </li>
-        <li>
-            <h4>Multilingual</h4>
-            <p>Certificates support languages such as English, Chinese, Japanese, Arabic and more</p>
-        </li>
-    </ul>
+        <img src="asset/certificate_main.jpg" alt="Certificate preview">
+  </section>
 
-    <p>Create Your Certificate <a href="#">Request a Feature →</a></p>
+  <section class="section-4">
+    <div class="box">
+      <h4>High Quality Templates</h4>
+      <p>We don't have as many templates as some other tools, but the ones we have look great and are in high quality vector format — download your certificates and print them at high resolutions.</p>
+    </div>
+    <div class="box">
+      <h4>No Design Skills Needed</h4>
+      <p>If you're a professional in any field, this is the certificate tool for you. No design skills needed to create stunning certificates of achievement or other documents that represent your awards and achievements.</p>
+    </div>
+    <div class="box">
+      <h4>Download for Free</h4>
+      <p>The certificate maker tool is designed as a free way to quickly create and download certificates for anything you want. Create PDFs on your computer, iPad or iPhone - wherever you are, and download them instantly.</p>
+    </div>
+  </section>
+
+  <section class="section-5">
+    <li>
+      <h4>Instant Download</h4>
+      <p>Create certificates online and download instantly as a PDF — no signup or payment required</p>
+    </li>
+    <li>
+      <h4>Auto Resizing</h4>
+      <p>Bannerbear auto-resizes text so you don't have to worry about people with long names</p>
+    </li>
+    <li>
+      <h4>Customization</h4>
+      <p>Change certificate settings to your liking such as font colors, font styles and more</p>
+    </li>
+    <li>
+      <h4>Multilingual</h4>
+      <p>Certificates support languages such as English, Chinese, Japanese, Arabic and more</p>
+    </li>
+  </section>
+
+<section class="section-6">
+  <div class="section-6-top">
+    <h2>Create Your Certificate <a href="#">Request a Feature →</a></h2>
     <p>Select a template, enter some values and hit Create PDF to get your files</p>
 
+    <div class="template-previews">
+      <img src="asset/certificate1.png" alt="Certificate 1">
+      <img src="asset/certificate2.png" alt="Certificate 2">
+      <img src="asset/certificate3.jpg" alt="Certificate 3">
+      <img src="asset/certificate4.jpg" alt="Certificate 4">
+    </div>
+  </div>
+
+  <form class="certificate-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name of the awardee">
+    </div>
+
+    <div class="form-group">
+      <label for="subtitle">Subtitle</label>
+      <input type="text" id="subtitle" name="subtitle" placeholder="Appears under the name of the awardee">
+    </div>
+
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input type="text" id="date" name="date" placeholder="e.g. 12 Oct 2025">
+    </div>
+
+    <div class="form-group">
+      <label for="signature">Signature</label>
+      <input type="text" id="signature" name="signature" placeholder="Name of signer">
+    </div>
+
+    <button type="submit">Create PDF</button>
+  </form>
+</section>
+
+  <section class="section-7">
     <h3>Need to Auto Generate Certificates?</h3>
     <p>Generate PDF Certificates via API, Zapier, Airtable, Integromat and more</p>
-    <p>Image Generation API PDF Generation API</p>
+    <p>Image Generation API | PDF Generation API</p>
+  </section>
 
-    <h3>Free Online Generators</h3>
-    <p>Free Online Invoice Generator | Free Online Photo Collage Generator | Free Online Event ID Card Generator | Free Online Certificate Generator | Free Online Wedding Invite Generator</p>
+  <section class="section-8">
+    <h3>Other Free Online Generators</h3>
+    <ul>
+      <li>Free Online Invoice Generator</li>
+      <li>Free Online Photo Collage Generator</li>
+      <li>Free Online Event ID Card Generator</li>
+      <li>Free Online Certificate Generator</li>
+      <li>Free Online Wedding Invite Generator</li>
+    </ul>
+  </section>
 
-    <p>Start a Free Trial: Start a free trial with 30 API credits, no credit card required</p>
+  <section class="section-9">
+    <h3>Start a Free Trial</h3>
+    <p>Start a free trial with 30 API credits, no credit card required</p>
     <button>Get Started for Free</button>
+  </section>
 
+<footer class="section-10">
+
+  <div class="section-10-left">
     <h2>Bannerbear</h2>
     <p>Image Generation API for marketing automation</p>
     <p>Follow Bannerbear on 𝕏</p>
-    <p>Sign Up for our Newsletter</p>
+    <a href="#">Sign Up for our Newsletter</a>
 
     <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms and Conditions</a></li>
-        <li>&copy; 2025 Bannerbear</li>
-        <li>ZooSaaS</li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms and Conditions</a></li>
+      <li>© 2025 Bannerbear</li>
     </ul>
+  </div>
 
-    <h3>Product:</h3>
-    <ul>
+  <div class="section-10-right">
+    <section>
+      <h3>Product</h3>
+      <ul>
         <li>Image Generation API</li>
-        <li>Multi Image Generation API</li>
         <li>Video Generation API</li>
         <li>PDF Generation API</li>
         <li>Template Library</li>
         <li>Bannerbear for Enterprise</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h3>Integrations:</h3>
-    <ul>
+    <section>
+      <h3>Integrations</h3>
+      <ul>
         <li>Airtable Integration</li>
         <li>Zapier Integration</li>
         <li>Integromat Integration</li>
         <li>Forms</li>
-        <li>URLs</li>
         <li>WordPress</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h3>Demos:</h3>
-    <ul>
+    <section>
+      <h3>Demos</h3>
+      <ul>
         <li>Multi Image Demo</li>
         <li>AI Face Detect Demo</li>
-        <li>Twitter to Instagram Real Estate Demo</li>
-        <li>Github Social</li>
-        <li>Open Graph</li>
+        <li>Twitter to Instagram Demo</li>
         <li>Smart Crop Demo</li>
         <li>Advanced Video Demo</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h3>Generators:</h3>
-    <ul>
-        <li>Online Certificate Maker</li>
-        <li>Online Wedding Invite Maker</li>
-        <li>Online Event ID Card Maker</li>
-        <li>Online Photo Collage Maker</li>
-        <li>Online Invoice Maker</li>
-    </ul>
+    <section>
+      <h3>Free Generators</h3>
+      <ul>
+        <li>Invoice Generator</li>
+        <li>Photo Collage Generator</li>
+        <li>ID Card Generator</li>
+        <li>Certificate Generator</li>
+        <li>Wedding Invite Generator</li>
+      </ul>
+    </section>
 
-    <h3>Use Cases:</h3>
-    <ul>
-        <li>Generate Images via API</li>
-        <li>Watermark Videos via API</li>
-        <li>Generate PDFs via API</li>
-        <li>Generate Images with Zapier</li>
-        <li>Watermark Videos with Zapier</li>
-        <li>Generate PDFs with Zapier</li>
-        <li>More Use Cases</li>
-    </ul>
+    <section>
+      <h3>Use Cases</h3>
+      <ul>
+        <li>Marketing Teams</li>
+        <li>Developers</li>
+        <li>Education</li>
+        <li>Event Organizers</li>
+      </ul>
+    </section>
 
-    <h3>Docs & Guides:</h3>
-    <ul>
-        <li>Help Articles</li>
-        <li>Blog</li>
-        <li>eBooks</li>
-        <li>API Quick Start</li>
-        <li>API Reference</li>
-    </ul>
+    <section>
+      <h3>Docs & Guides</h3>
+      <ul>
+        <li>API Documentation</li>
+        <li>Quickstart Guides</li>
+        <li>Template Setup</li>
+        <li>Video Tutorials</li>
+      </ul>
+    </section>
 
-    <h3>Free Tools:</h3>
-    <ul>
+    <section>
+      <h3>Free Tools</h3>
+      <ul>
         <li>Facebook Preview Tool</li>
         <li>Twitter Preview Tool</li>
         <li>Pretty Screenshot Tool</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h3>Other:</h3>
-    <ul>
-        <li>System Status</li>
-        <li>About Bannerbear</li>
-        <li>Open Startup ⤷ $10K MRR</li>
-        <li>SaaS Journey ⤷ $10K to $20K MRR ⤷ Journey to $1MM ARR</li>
-        <li>Affiliate Program</li>
+    <section>
+      <h3>Other</h3>
+      <ul>
         <li>Changelog</li>
-        <li>Newsletter</li>
-        <li>Pricing</li>
-        <li>Bannerbear Alternatives</li>
-    </ul>
-</body>
-</html>
+        <li>Blog</li>
+        <li>Careers</li>
+      </ul>
+    </section>
+  </div>
+
+</footer>
